@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>10XEngineer.com</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Animation CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/plugins/footable/footable.core.css" rel="stylesheet">
+    <link href="css/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet">
+    <link href="css/plugins/select2/select2.min.css" rel="stylesheet">
+    <link href="css/plugins/jsTree/style.min.css" rel="stylesheet">
+    
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body id="page-top" class="landing-page">
+<div class="navbar-wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: #444d54">
+            <div class="container" >
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">10xEngineer.com</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="page-scroll" href="#page-top">Home</a></li>
+                        <li><a class="page-scroll" href="#features">10X Engineer</a></li>
+                        <li><a class="page-scroll" href="#team">Get Started</a></li>
+                        <li><a class="page-scroll" href="#pricing">Pricing</a></li>
+                        <li><a class="page-scroll" href="#team"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</div>
+
+
+
+<section id="features" class="container services">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>Modern System Components & Concepts<small> with dependency upon each other.</small></h5>
+                    
+                </div>
+                <div class="ibox-content">
+                    <div class="modal inmodal fade" id="detail_modal" tabindex="-1" role="dialog"  aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title">Rate Limiter</h4>
+                                    <small class="font-bold">
+                                        API Gateway, AAA, IP Whitelisting, Servicing static Content, SSL Termination, Rate Limitting Algorithms, Redis, Sticky Sessions, Centralized Datastore, Consistency</small>
+                                </div>
+                                <div class="modal-body" style="padding:15px">
+                                    <div class="tabs-container">
+                                        <ul class="nav nav-tabs">
+                                            <li class="active"><a data-toggle="tab" href="#tab-2" style="padding:13px 12px 10px 13px"> <i class="fa fa-info-circle"> </i>Summary</a></li>
+                                            <li class=""><a data-toggle="tab" href="#tab-3" style="padding:13px 12px 10px 13px"> <i class="fa fa-youtube-play"> </i>Video</a></li>
+                                            <li class=""><a data-toggle="tab" href="#tab-4" style="padding:13px 12px 10px 13px"><i class="fa fa-file-pdf-o"></i>Documents</a></li>
+                                            <li class=""><a data-toggle="tab" href="#tab-5" style="padding:13px 12px 10px 13px"><i class="fa fa-code"></i>Codes</a></li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div id="tab-2" class="tab-pane active">
+                                                <div class="panel-body">
+                                                    <strong>What we will learn? </strong>
+                
+                                                    <p> 1. What and Why Rate Limiting? <br/>
+                                                        2. Rate Limiting Algorithms<br/>
+                                                        2.1 Tocket Bucket<br/>
+                                                        2.2 Leaking Bucket<br/>
+                                                        2.3 Fixed Window Counter<br/>
+                                                        2.4 Sliding Window Counter<br/>
+                                                        2.5 Sliding Window Log<br/>
+                                                        3 Distributed Challenges<br/>
+                                                        3.1 Race Condition<br/>
+                                                        3.1.1 How Race condition can be avoided with Redis Sorted Sets?<br/>
+                                                        3.2 Synchronization<br/>
+                                                        3.2.1 Consistency<br/>
+                                                        4. Additional Learning Use Cases <br/>
+                                                        4.1 How to drop low-priority requests in case of internal issues in the system?<br/>
+                                                        4.2 Some time we use same resource for our transactional and analytics use(due to fund crunch or design flaws may be), how can we drop the analytical request traffic during pak hours?<br/>
+                                                        4.3 How rate limiters can help in testing your system/servcies in production environment?<br/>
+                                                        5. Different Types of Limiters<br/>
+                                                        5.1 Request Rate Limiter Psuedo Code <br/>
+                                                        5.2 Concurrent Request Limiter Pseudo Code<br/>
+                                                        5.3 Worker utilization load shedder Psuedo Code<br/>
+                                                        5.4 Fleet usage load shedder Psuedo Code<br/>
+                                                        5.6 Network Level Filter<br/>
+                                                        5.7 HTTP Level Filter </p>
+                
+                                                    
+                                                </div>
+                                            </div>
+                                            <div id="tab-3" class="tab-pane">
+                                                <div class="panel-body" style="background-color:#f3f3f4;">
+                                                    
+                                                    <div class="row">
+                                                        <div class="col-lg-12 m-b-lg">
+                                                            <div id="vertical-timeline" class="vertical-container light-timeline no-margins" style="width: 100% !important">
+                                                                <div class="vertical-timeline-block">
+                                                                    <div class="vertical-timeline-icon navy-bg">
+                                                                        <i class="fa fa-briefcase"></i>
+                                                                    </div>
+                                        
+                                                                    <div class="vertical-timeline-content">
+                                                                        <h2>Rate Limiter by Tech Dummies Narendra L</h2>
+                                                                        <div class="row">
+                                                                            <div class="col-lg-4">
+                                                                                <p>
+                                                                                    Rate limiting protects your APIs from overuse by limiting how often each user can call the API.<br>
+        In this video following algorithms are discussed <br/>
+        Token Bucket<br/>
+        Leaky Bucket<br/>
+        Sliding Logs<br/>
+        Sliding window counters<br/>
+        Race Conditions in distributed systems<br/>
+        
+                                                                                </p>
+                                                                            </div>
+                                                                            <div class="col-lg-8">
+                                                                                <figure>
+                                                                                    <iframe style="float: right;" width="425" height="349" src="https://www.youtube.com/embed/mhUQe4BKZXs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                                    
+                                                                                </figure>
+                                                                            </div>
+                                                                        </div> 
+                                                                    </div>
+                                                                </div>
+                                        
+                                                                <div class="vertical-timeline-block">
+                                                                    <div class="vertical-timeline-icon blue-bg">
+                                                                        <i class="fa fa-file-text"></i>
+                                                                    </div>
+                                        
+                                                                    <div class="vertical-timeline-content">
+                                                                        <h2>Rate Limiter by System Design Interview</h2>
+                                                                        <div class="row">
+                                                                            <div class="col-lg-4">
+                                                                                <p>
+                                                                                   <b> Topics mentioned in the video:</b><br/>
+- Token bucket algorithm.<br/>
+- Object-oriented design of the rate limiting solution.<br/>
+- Load balancer max connections, auto-scaling.<br/>
+- Message broadcasting: full mesh network topology,  gossip communication, distributed cache, coordination service.<br/>
+- Communication protocols: TCP, UDP.<br/>
+- Embedded rate limiter vs daemon process.<br/>
+- Bucket management, synchronization.<br/>
+ <hr>
+<b>Inspired by the following interview questions: </b><br/>
+Amazon (https://www.careercup.com/question?id...)<br/>
+Google (https://www.careercup.com/question?id..., https://www.careercup.com/question?id...)<br/>
+Uber (https://leetcode.com/discuss/intervie...)<br/>
+
+        
+                                                                                </p>
+                                                                            </div>
+                                                                            <div class="col-lg-8">
+                                                                                <figure>
+                                                                                    <iframe style="float: right;"  width="425" height="349" src="https://www.youtube.com/embed/FU4WlwfS3G0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                                </figure>
+                                                                            </div>
+                                                                        </div> 
+                                                                    </div>
+                                                                </div>
+                                        
+                                                                
+                                        
+                                                               
+                                        
+                                                            </div>
+                                        
+                                                        </div>
+
+                                                    </div>    
+                                                </div>
+                                            </div>
+                                            <div id="tab-4" class="tab-pane">
+                                                <div class="panel-body">
+                                                    <strong>Real World Production Implementations</strong>
+                
+                                                    <p> 
+                                                        <ul>
+                                                            <li> <a href="https://cloud.google.com/solutions/rate-limiting-strategies-techniques">Google's Rate Limiting Strategies and Techiniques</a>
+                                                            </li>
+                                                            <li> <a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html">Rate Limiting with AWS API Gateway</a>
+                                                            </li>
+                                                            <li> <a href="https://istio.io/v1.4/docs/tasks/policy-enforcement/rate-limiting/#rate-limits">Istio's rate limiting </a>
+                                                            </li>
+                                                            <li> <a href="https://docs.apigee.com/api-platform/develop/rate-limiting">Apigee Edge </a>
+                                                            </li>
+                                                            <li> <a href="https://stripe.com/blog/rate-limiters">Rate Limiting at Stripe</a>
+                                                            </li>
+                                                            <li> <a href="https://eng.lyft.com/announcing-ratelimit-c2e8f3182555">Rate Limiting at Lyft</a>
+                                                            </li>
+                                                            <li> <a href="https://blog.cloudflare.com/counting-things-a-lot-of-different-things/">Rate Limiting at Cloudfare</a>
+                                                            </li>
+                                                            <li> <a href="https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/">Rate Limiting at Figma </a>
+                                                            </li>
+                                                            <li> <a href="https://medium.com/smyte/rate-limiter-df3408325846">Rate Limiting at Smyte</a>
+                                                            </li>
+                                                            <li> <a href="https://konghq.com/blog/how-to-design-a-scalable-rate-limiting-algorithm/">Rate Limiting with Kong </a>
+                                                            </li>
+                                                            <li> <a href="https://shopify.dev/concepts/about-apis/rate-limits ">Rate Limiting with Shopify </a>
+                                                            </li>
+                                                            <li> <a href="https://engineering.classdojo.com/blog/2015/02/06/rolling-rate-limiter/">Rate Limiting at ClassDojo Engineering </a>
+                                                            </li>
+                                                        </ul>
+
+                                                       
+                                                    </p>
+                
+                                                </div>
+                                            </div>
+                                            <div id="tab-5" class="tab-pane">
+                                                <div class="panel-body">
+                                                    <strong>Implementation of code in multiple languages will come here</strong>
+                
+                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <div id="jstree1">
+                        <ul>
+                            <li class="jstree-open">Concepts
+                                <ul>
+                                    <li>How Internet Works? 
+                                        <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                        <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                        <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                        
+                                
+                                    </li>
+                                    <li class="jstree-open">Limited Resources
+                                        <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                        <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                        <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                        <ul>
+                                            <li data-jstree='"type":"html"}'>CPU
+                                                <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                                <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                                <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                            </li>
+                                            <li data-jstree='"type":"html"}'>Memory
+                                                <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                                <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                                <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                            </li>
+                                            <li data-jstree='"type":"html"}'>Hard Disk
+                                                <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                                <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                                <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                            </li>
+                                            <li data-jstree='"type":"html"}'>Network Bandwidth
+                                                <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                                <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                                <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="jstree-open">Database
+                                        <ul>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Relational Database
+                                                <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                        <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                        <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                                <ul>
+                                                    <li data-jstree='"type":"svg"}'>Indexing
+                                                        <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                        <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                        <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                                    </li>
+                                                    <li data-jstree='"type":"svg"}'>Execution Plan
+                                                        <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                        <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                        <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>NoSql Database
+                                                <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                        <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                        <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                                <ul>
+                                                    <li data-jstree='"type":"svg"}'>Key Value
+                                                        <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                        <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                        <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                                    </li>
+                                                    <li data-jstree='"type":"svg"}'>Wide Column
+                                                        <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                        <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                        <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                                    </li>
+                                                    <li data-jstree='"type":"svg"}'>Document
+                                                        <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                        <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                        <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                                    </li>
+                                                    <li data-jstree='"type":"svg"}'>Graph
+                                                        <span class="badge badge-primary" style="font-size: 9px;"><i class="fa fa-clock-o" ></i> 90 min</span>
+                                        <span class="badge badge-success detail_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-tasks" ></i> Details</span>   
+                                        <span class="badge badge-warning edit_concept" style="margin-left:4px;font-size: 9px;"><i class="fa fa-edit" ></i> Edit</span>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="jstree-open"data-jstree='"type":"svg"}'>Cloud Storage</li>
+                                            <li data-jstree='"type":"svg"}'>ACID</li>
+                                            <li data-jstree='"type":"svg"}'>BASE</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Replication
+                                                <ul>
+                                                    <li data-jstree='"type":"svg"}'>Master Slave</li>
+                                                    <li data-jstree='"type":"svg"}'>Multi Master Slave</li>
+                                                </ul>
+                                            </li>
+                                            <li data-jstree='"type":"svg"}'>Sharding</li>
+                                            <li data-jstree='"type":"svg"}'>Partitioning</li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li class="jstree-open">Concurrency
+                                        <ul>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Thread</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Process</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Starvation</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Multithreading</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Multitasking</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Multiprocessing</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Synchronization</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Locks</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Synchronous Interaction</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Asynchronous Interaction</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Contention</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Race Condition</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Deadlock</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Optimistic Locking</li>
+                                            <li class="jstree-open" data-jstree='"type":"svg"}'>Pessimistic Locking</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+</section>
+
+<section id="contact" class="gray-section contact">
+    <div class="container">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Contact Us</h1>
+                <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
+            </div>
+        </div>
+        <div class="row m-b-lg">
+            <div class="col-lg-3 col-lg-offset-3">
+                <address>
+                    <strong><span class="navy">10XEnginner.com</span></strong><br/>
+                    795 Folsom Ave, Suite 600<br/>
+                    Bangalore, India 560046<br/>
+                    <abbr title="Phone">P:</abbr> (080) 456-7890
+                </address>
+            </div>
+            <div class="col-lg-4">
+                <!-- <p class="text-color">
+                    Consectetur adipisicing elit. Aut eaque, totam corporis laboriosam veritatis quis ad perspiciatis, totam corporis laboriosam veritatis, consectetur adipisicing elit quos non quis ad perspiciatis, totam corporis ea,
+                </p> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="mailto:test@email.com" class="btn btn-primary">Send us mail</a>
+                <p class="m-t-sm">
+                    Or follow us on social platform
+                </p>
+                <ul class="list-inline social-icon">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                <p><strong>&copy; 2021 10XEngineer.com</strong><br/> </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mainly scripts -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<!-- FooTable -->
+<script src="js/plugins/footable/footable.all.min.js"></script>
+<!-- Tags Input -->
+<script src="js/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+<!-- Peity -->
+<script src="js/plugins/peity/jquery.peity.min.js"></script>
+<!-- Select2 -->
+    <script src="js/plugins/select2/select2.full.min.js"></script>
+    <script src="js/plugins/jsTree/jstree.min.js"></script>
+<!-- Custom and plugin javascript -->
+<script src="js/inspinia.js"></script>
+<script src="js/plugins/pace/pace.min.js"></script>
+<script src="js/plugins/wow/wow.min.js"></script>
+
+<style>
+    .jstree-open > .jstree-anchor > .fa-folder:before {
+        content: "\f07c";
+    }
+
+    .jstree-default .jstree-icon.none {
+        width: 0;
+    }
+</style>
+<script>
+
+    $(document).ready(function () {
+        
+        
+        $('#jstree1').jstree({
+            'core' : {
+                'check_callback' : true
+            },
+            'plugins' : [ 'types', 'dnd' ],
+            'types' : {
+                'default' : {
+                    'icon' : 'fa fa-folder'
+                },
+                'html' : {
+                    'icon' : 'fa fa-file-code-o'
+                },
+                'svg' : {
+                    'icon' : 'fa fa-file-picture-o'
+                },
+                'css' : {
+                    'icon' : 'fa fa-file-code-o'
+                },
+                'img' : {
+                    'icon' : 'fa fa-file-image-o'
+                },
+                'js' : {
+                    'icon' : 'fa fa-file-text-o'
+                }
+
+            }
+        });
+        $('.edit_concept').hide();
+        $('.detail_concept').on('click', function(){
+            $('#detail_modal').modal();
+        });
+		$('.footable').footable();
+		$('.tagsinput').tagsinput({
+                tagClass: 'label label-primary'
+        });
+		$(".select2_demo_2").select2();
+        $('body').scrollspy({
+            target: '.navbar-fixed-top',
+            offset: 80
+        });
+
+        // Page scrolling feature
+        $('a.page-scroll').bind('click', function(event) {
+            var link = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $(link.attr('href')).offset().top - 50
+            }, 500);
+            event.preventDefault();
+            $("#navbar").collapse('hide');
+        });
+    });
+
+    var cbpAnimatedHeader = (function() {
+        var docElem = document.documentElement,
+                header = document.querySelector( '.navbar-default' ),
+                didScroll = false,
+                changeHeaderOn = 200;
+        function init() {
+            window.addEventListener( 'scroll', function( event ) {
+                if( !didScroll ) {
+                    didScroll = true;
+                    setTimeout( scrollPage, 250 );
+                }
+            }, false );
+        }
+        function scrollPage() {
+            var sy = scrollY();
+            if ( sy >= changeHeaderOn ) {
+                $(header).addClass('navbar-scroll')
+            }
+            else {
+                $(header).removeClass('navbar-scroll')
+            }
+            didScroll = false;
+        }
+        function scrollY() {
+            return window.pageYOffset || docElem.scrollTop;
+        }
+        init();
+
+        $(".jstree-anchor").on("click", function(){
+            alert("The paragraph was clicked.");
+        });
+
+    })();
+
+    // Activate WOW.js plugin for animation on scrol
+    new WOW().init();
+
+</script>
+
+</body>
+</html>
